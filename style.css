@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(199, 199, 218),rgb(54, 54, 231));
+}
+
+.perfil{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius:30px;
+    border-top-right-radius: 30px;
+    color: rgb(24, 5, 49);
+    
+   
+
+}
+
+.segundaParte{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(110, 110, 179),rgb(10, 10, 51));
+    height: 8cm;
+    width: 23%;
+    border-bottom-right-radius:30px;
+    border-top-right-radius: 30px;
+    color: rgb(24, 5, 49);
+    
+}
+
+.terceiraParte{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(110, 110, 179),rgb(10, 10, 51));
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    margin-right: 4cm;
+    color: rgb(24, 5, 49);
+   
+  
+
+   
+     
+}
+
+
+.quartaParte{
+    height: 8cm;
+    width: 15cm;
+    
+
+
+}
+
+.editar{
+    text-align: center;
+    margin-top: 3cm;
+}
+
+
+.imagemm{
+
+    width: 100px;
+    border-radius: 100px;
+     height: 100px;
+     margin-left:6cm ;
+    
+
+}
+
+
+
+
+.imagem{
+    width: 100px;
+    border-radius: 100px;
+     height: 100px;
+     margin-left: 3cm;
+     margin-top: 2cm;
+
+}
+
+
+.title{
+
+    text-align: center;
+
+}
+
+.email{
+    text-align: center;
+
+}
+
+.sub{
+   
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 585px;
+    max-width: 23%;
+    padding: 20px;
+    margin-top: 2cm;
+    height: 13cm;
+    background-image: linear-gradient(to right, rgb(110, 110, 179),rgb(10, 10, 51));
+    border-bottom-right-radius:30px;
+    border-top-right-radius: 30px;
+    color: rgb(24, 5, 49);
+
+
+}
+
+
+.setings{
+    text-align: center;    
+    margin-top: 2cm;
+    margin-left: 2CM;
+
+}
+
+.perfis{
+    
+}
+
+
+.formulario{
+    background-image: linear-gradient(to right, rgb(110, 110, 179),rgb(10, 10, 51));
+  border-radius: 30px;
+  padding-left: 5cm;
+  padding-right: 5cm;
+  height: 470px;
+  color: rgb(24, 5, 49);
+  
+ 
+
+}
+
+.titulo{
+ margin: 1cm;
+ font-size:20px ;
+ color: rgb(24, 5, 49);
+
+
+}
+
+.input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+
+.botao{
+    width: 100%;
+    padding: 5px;
+    margin-top: 1cm;
+    background-image: linear-gradient(to right, rgb(23, 23, 32),rgb(108, 108, 240));
+    color: rgb(10, 10, 10);
+}
