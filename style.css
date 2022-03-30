@@ -40,6 +40,8 @@ body{
     border-bottom-right-radius:30px;
     margin-right: 4cm;
     color: rgb(24, 5, 49);
+    width: 750px;
+    
    
   
 
@@ -51,14 +53,19 @@ body{
 .quartaParte{
     height: 8cm;
     width: 15cm;
+    text-align: center;
     
 
 
 }
 
 .editar{
-    text-align: center;
+   
     margin-top: 3cm;
+    margin-left: 220px;
+    padding: ;
+
+  
 }
 
 
@@ -100,8 +107,8 @@ body{
    
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
-    gap: 585px;
+    justify-content: space-around;
+    gap: 39cm;
     max-width: 23%;
     padding: 20px;
     margin-top: 2cm;
@@ -134,6 +141,8 @@ body{
   padding-right: 5cm;
   height: 470px;
   color: rgb(24, 5, 49);
+
+ 
   
  
 
@@ -143,6 +152,7 @@ body{
  margin: 1cm;
  font-size:20px ;
  color: rgb(24, 5, 49);
+ text-align: center;
 
 
 }
@@ -152,14 +162,38 @@ body{
     margin: 5px;
     border-radius: 15px;
     border: none;
-
+    
+    
 }
 
 
 .botao{
     width: 100%;
-    padding: 5px;
+    padding: 20px;
     margin-top: 1cm;
     background-image: linear-gradient(to right, rgb(23, 23, 32),rgb(108, 108, 240));
     color: rgb(10, 10, 10);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.botao:hover{
+    color:red;
+}
+
+
+.teste{
+    display: flex;
+
+}
+.impute{
+    width: 5cm;
+    padding: 40px;
+
+}
+
+#testes{
+    width: 385px;
+
 }
